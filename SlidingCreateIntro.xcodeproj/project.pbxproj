@@ -14,6 +14,8 @@
 		C3546F262B8EB7E300193F29 /* SlidingCreateIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3546F252B8EB7E300193F29 /* SlidingCreateIntroTests.swift */; };
 		C3546F302B8EB7E300193F29 /* SlidingCreateIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3546F2F2B8EB7E300193F29 /* SlidingCreateIntroUITests.swift */; };
 		C3546F322B8EB7E300193F29 /* SlidingCreateIntroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3546F312B8EB7E300193F29 /* SlidingCreateIntroUITestsLaunchTests.swift */; };
+		C3546F3F2B8EB82C00193F29 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3546F3E2B8EB82C00193F29 /* PageModel.swift */; };
+		C3546F412B8EB92A00193F29 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3546F402B8EB92A00193F29 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C3546F2B2B8EB7E300193F29 /* SlidingCreateIntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingCreateIntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3546F2F2B8EB7E300193F29 /* SlidingCreateIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingCreateIntroUITests.swift; sourceTree = "<group>"; };
 		C3546F312B8EB7E300193F29 /* SlidingCreateIntroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingCreateIntroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3546F3E2B8EB82C00193F29 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		C3546F402B8EB92A00193F29 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				C3546F142B8EB7E100193F29 /* SlidingCreateIntroApp.swift */,
 				C3546F162B8EB7E100193F29 /* ContentView.swift */,
 				C3546F182B8EB7E200193F29 /* Assets.xcassets */,
+				C3546F3E2B8EB82C00193F29 /* PageModel.swift */,
+				C3546F402B8EB92A00193F29 /* PageView.swift */,
 				C3546F1A2B8EB7E200193F29 /* Preview Content */,
 			);
 			path = SlidingCreateIntro;
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3546F172B8EB7E100193F29 /* ContentView.swift in Sources */,
+				C3546F412B8EB92A00193F29 /* PageView.swift in Sources */,
+				C3546F3F2B8EB82C00193F29 /* PageModel.swift in Sources */,
 				C3546F152B8EB7E100193F29 /* SlidingCreateIntroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
